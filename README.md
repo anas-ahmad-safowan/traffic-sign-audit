@@ -67,7 +67,6 @@ traffic-sign-audit/
 │   └── build_report.py       # report builder (.docx)
 ├── tests/test_audit.py       # validation checks
 ├── tools/make_demo_data.py   # synthetic smoke-test data
-├── report/student_notes.md   # my own reasoning, inserted into the report
 ├── outputs/
 │   ├── figures/              # 8 PNG figures + captions.json
 │   └── processed/            # feature_table.csv, class_summary.csv, sensitivity, exclusion_log.csv, results.json
