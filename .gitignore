@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+data/GTSRB/
+demo/
+.ipynb_checkpoints/

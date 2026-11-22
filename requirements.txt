@@ -1,0 +1,6 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.8
+opencv-python>=4.8
+# only needed for the optional report builder (src/build_report.py):
+python-docx>=1.1
