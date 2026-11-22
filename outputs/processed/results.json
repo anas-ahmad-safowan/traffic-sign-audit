@@ -1,0 +1,233 @@
+{
+  "demo_data": false,
+  "seed": 42,
+  "per_class_cap": 500,
+  "classes": [
+    4,
+    11,
+    33,
+    36,
+    40
+  ],
+  "inspection": {
+    "n_rows_raw": 39209,
+    "n_classes_raw": 43,
+    "dtypes_raw": {
+      "Width": "int64",
+      "Height": "int64",
+      "Roi.X1": "int64",
+      "Roi.Y1": "int64",
+      "Roi.X2": "int64",
+      "Roi.Y2": "int64",
+      "ClassId": "int64",
+      "Filename": "object",
+      "class_dir": "object",
+      "annotation_file": "str"
+    },
+    "missing_values": {
+      "Filename": 0,
+      "Width": 0,
+      "Height": 0,
+      "Roi.X1": 0,
+      "Roi.Y1": 0,
+      "Roi.X2": 0,
+      "Roi.Y2": 0,
+      "ClassId": 0
+    },
+    "n_duplicate_rows": 0,
+    "n_non_numeric_cells": 0,
+    "n_invalid_class_id": 0,
+    "n_invalid_dimensions": 0,
+    "n_invalid_or_absent_roi": 0,
+    "n_class_folder_mismatch": 0,
+    "n_invalid_image_paths": 39187,
+    "n_malformed_rows": 0,
+    "n_rows_without_local_image": 39187,
+    "n_rows_valid": 39209,
+    "n_classes_valid": 43,
+    "n_excluded_total": 0,
+    "full_class_counts": {
+      "0": 210,
+      "1": 2220,
+      "2": 2250,
+      "3": 1410,
+      "4": 1980,
+      "5": 1860,
+      "6": 420,
+      "7": 1440,
+      "8": 1410,
+      "9": 1470,
+      "10": 2010,
+      "11": 1320,
+      "12": 2100,
+      "13": 2160,
+      "14": 780,
+      "15": 630,
+      "16": 420,
+      "17": 1110,
+      "18": 1200,
+      "19": 210,
+      "20": 360,
+      "21": 330,
+      "22": 390,
+      "23": 510,
+      "24": 270,
+      "25": 1500,
+      "26": 600,
+      "27": 240,
+      "28": 540,
+      "29": 270,
+      "30": 450,
+      "31": 780,
+      "32": 240,
+      "33": 689,
+      "34": 420,
+      "35": 1200,
+      "36": 390,
+      "37": 210,
+      "38": 2070,
+      "39": 300,
+      "40": 360,
+      "41": 240,
+      "42": 240
+    }
+  },
+  "n_sample": 22,
+  "n_unreadable": 0,
+  "n_tracks_sample": 13,
+  "n_roi_fallback_sample": 0,
+  "n_dim_mismatch": 0,
+  "cutoffs": {
+    "brightness": 27.86278670360111,
+    "contrast": 8.403098094874256,
+    "sharpness": 13.41219181013696,
+    "min_side": 18.2
+  },
+  "sensitivity_cutoffs": {
+    "baseline (P10, >=2)": {
+      "brightness": 27.86278670360111,
+      "contrast": 8.403098094874256,
+      "sharpness": 13.41219181013696,
+      "min_side": 18.2
+    },
+    "stricter (P5, >=2)": {
+      "brightness": 25.077050505050504,
+      "contrast": 6.11113189419108,
+      "sharpness": 7.381953335985726,
+      "min_side": 18.0
+    },
+    "looser (P20, >=2)": {
+      "brightness": 38.10568980494354,
+      "contrast": 11.130813267697459,
+      "sharpness": 26.108498316635323,
+      "min_side": 20.2
+    },
+    "any trigger (P10, >=1)": {
+      "brightness": 27.86278670360111,
+      "contrast": 8.403098094874256,
+      "sharpness": 13.41219181013696,
+      "min_side": 18.2
+    }
+  },
+  "overall_flagged": {
+    "baseline (P10, >=2)": 5,
+    "stricter (P5, >=2)": 2,
+    "looser (P20, >=2)": 5,
+    "any trigger (P10, >=1)": 6
+  },
+  "rank_agreement": {
+    "baseline (P10, >=2)": 1.0,
+    "stricter (P5, >=2)": 0.36273812505500586,
+    "looser (P20, >=2)": 1.0,
+    "any trigger (P10, >=1)": 1.0
+  },
+  "top3": {
+    "baseline (P10, >=2)": [
+      36,
+      11,
+      33
+    ],
+    "stricter (P5, >=2)": [
+      11,
+      4,
+      33
+    ],
+    "looser (P20, >=2)": [
+      36,
+      11,
+      33
+    ],
+    "any trigger (P10, >=1)": [
+      36,
+      11,
+      33
+    ]
+  },
+  "n_flag_baseline": 5,
+  "tier_counts": {
+    "routine": 16,
+    "review first": 5,
+    "watch": 1
+  },
+  "trigger_counts": {
+    "flag_dark": 3,
+    "flag_low_contrast": 3,
+    "flag_blurry": 3,
+    "flag_small": 3
+  },
+  "skipped_counts": {
+    "annotation row kept for counts; image file not present locally, so not measured": 43
+  },
+  "roi_vs_full": {
+    "brightness": {
+      "median_crop": 94.01359439879849,
+      "median_full": 83.1540600096095,
+      "spearman": 0.9774138904573689,
+      "n": 22
+    },
+    "contrast": {
+      "median_crop": 38.69764049928244,
+      "median_full": 43.68995938171557,
+      "spearman": 0.9435347261434219,
+      "n": 22
+    },
+    "sharpness": {
+      "median_crop": 245.28169062108168,
+      "median_full": 417.0562847749687,
+      "spearman": 0.9491812535290796,
+      "n": 22
+    }
+  },
+  "examples": [
+    {
+      "label": "Strongly flagged",
+      "image_path": "Train/11/00011_00000_00007.png",
+      "class_id": 11,
+      "brightness": 24.96818181818182,
+      "contrast": 5.575423861884352,
+      "sharpness": 5.483936262719425,
+      "min_side": 20.0,
+      "n_triggers": 3
+    },
+    {
+      "label": "Borderline flag",
+      "image_path": "Train/36/00036_00000_00008.png",
+      "class_id": 36,
+      "brightness": 27.145555555555557,
+      "contrast": 8.27512552588393,
+      "sharpness": 19.734283824025848,
+      "min_side": 30.0,
+      "n_triggers": 2
+    },
+    {
+      "label": "Unflagged reference",
+      "image_path": "Train/4/00004_00011_00004.png",
+      "class_id": 4,
+      "brightness": 122.72,
+      "contrast": 61.609752474750294,
+      "sharpness": 268.75361388406634,
+      "min_side": 20.0,
+      "n_triggers": 0
+    }
+  ]
+}

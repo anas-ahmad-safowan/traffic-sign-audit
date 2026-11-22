@@ -1,0 +1,5 @@
+feature,rank_eta2,median_gap_in_IQR,class_with_min_median,class_with_max_median
+brightness,0.5261649323761125,1.7357088303561028,Straight or right,Speed limit 70
+contrast,0.44039149256540555,1.143312715301466,Straight or right,Speed limit 70
+sharpness,0.2442902852840741,0.7480761500975353,Straight or right,Speed limit 70
+min_side,0.11000189071658159,0.631578947368421,Straight or right,Right-of-way at junction
