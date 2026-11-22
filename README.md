@@ -70,6 +70,7 @@ traffic-sign-audit/
 ├── outputs/
 │   ├── figures/              # 8 PNG figures + captions.json
 │   └── processed/            # feature_table.csv, class_summary.csv, sensitivity, exclusion_log.csv, results.json
+├── report/Traffic_Sign_Audit_Report
 └── demo_example/             # example outputs from the SYNTHETIC data (not GTSRB results)
 ```
 
